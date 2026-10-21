@@ -1,8 +1,8 @@
-# Rockbox iPod Touch Edition - Projet Android Studio Clé en Main (APK Haute Fidélité)
+# Edition moderne de Rockbox simulé dans un iPod
 
 Ce projet Android Studio contient l'application Rockbox iPod complète avec :
 - **Rendu visuel 100% IDENTIQUE** à la WebApp AI Studio (OLED Pure Dark, châssis iPod, molette ClickWheel, égaliseur 10 bandes flat, jeu Snake UX).
-- **Zéro crash** : Architecture conteneur WebKit officiel Google (`androidx.webkit:webkit:1.11.0`) avec accélération matérielle GPU native.
+- **Architecture moderne** : Conteneur WebKit officiel Google (`androidx.webkit:webkit:1.11.0`) avec accélération matérielle GPU native.
 - **Retour haptique physique** : Molette tactile connectée au vibreur Android via `AndroidBridge`.
 - **Lecture audio continue** : `RockboxPlaybackService` avec support MediaPlayback Android 14.
 
