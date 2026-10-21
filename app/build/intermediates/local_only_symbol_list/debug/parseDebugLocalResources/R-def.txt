@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+id rockboxWebView
+layout activity_main
+layout activity_rockbox
+mipmap ic_launcher
+mipmap ic_launcher_round
+style Theme.Rockbox

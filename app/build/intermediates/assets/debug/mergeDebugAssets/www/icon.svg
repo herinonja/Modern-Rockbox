@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="chassisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2b30"/>
+      <stop offset="50%" stop-color="#18191c"/>
+      <stop offset="100%" stop-color="#0f1012"/>
+    </linearGradient>
+    <linearGradient id="wheelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c2d33"/>
+      <stop offset="100%" stop-color="#1e1f24"/>
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <!-- Device Chassis -->
+  <rect x="32" y="24" width="448" height="464" rx="48" fill="url(#chassisGrad)" stroke="#3f414a" stroke-width="4"/>
+  <!-- Bevel highlight -->
+  <rect x="36" y="28" width="440" height="456" rx="44" fill="none" stroke="#525561" stroke-width="1" opacity="0.6"/>
+  <!-- Screen Area -->
+  <rect x="64" y="56" width="384" height="200" rx="16" fill="url(#screenGrad)" stroke="#334155" stroke-width="3"/>
+  <!-- Screen Header -->
+  <rect x="64" y="56" width="384" height="34" rx="16" fill="#0284c7"/>
+  <rect x="64" y="74" width="384" height="16" fill="#0284c7"/>
+  <text x="80" y="80" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="bold">Rockbox</text>
+  <circle cx="420" cy="73" r="5" fill="#38bdf8"/>
+  <rect x="400" y="68" width="14" height="9" rx="2" fill="#38bdf8"/>
+  <!-- Screen Text -->
+  <text x="84" y="125" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="600">Now Playing</text>
+  <text x="84" y="155" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Analog Warmth</text>
+  <text x="84" y="180" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13">FLAC 24-bit 96kHz</text>
+  <!-- Progress bar -->
+  <rect x="84" y="215" width="344" height="6" rx="3" fill="#334155"/>
+  <rect x="84" y="215" width="210" height="6" rx="3" fill="#38bdf8"/>
+  <!-- Click Wheel Outer -->
+  <circle cx="256" cy="380" r="88" fill="url(#wheelGrad)" stroke="#383a42" stroke-width="3"/>
+  <!-- Center Button -->
+  <circle cx="256" cy="380" r="34" fill="#18191c" stroke="#383a42" stroke-width="2"/>
+  <!-- Clickwheel Labels -->
+  <text x="256" y="316" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1">MENU</text>
+  <!-- Play/Pause -->
+  <path d="M 248 440 L 256 445 L 248 450 Z M 260 440 L 262 440 L 262 450 L 260 450 Z M 264 440 L 266 440 L 266 450 L 264 450 Z" fill="#94a3b8"/>
+  <!-- Prev -->
+  <path d="M 188 380 L 196 375 L 196 385 Z M 198 375 L 200 375 L 200 385 L 198 385 Z" fill="#94a3b8"/>
+  <!-- Next -->
+  <path d="M 324 380 L 316 375 L 316 385 Z M 314 375 L 312 375 L 312 385 L 314 385 Z" fill="#94a3b8"/>
+</svg>
