@@ -1,8 +1,8 @@
-#Tue Oct 20 11:18:52 EAT 2026
-base.0=/Users/frede_rica/.Trash/Rockbox-iPod-Android-APK-Project 11.15.19/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/frede_rica/.Trash/Rockbox-iPod-Android-APK-Project 11.15.19/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/frede_rica/.Trash/Rockbox-iPod-Android-APK-Project 11.15.19/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
-base.3=/Users/frede_rica/.Trash/Rockbox-iPod-Android-APK-Project 11.15.19/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+#Wed Oct 21 11:34:21 EAT 2026
+base.0=/Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.3=/Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=5/classes.dex

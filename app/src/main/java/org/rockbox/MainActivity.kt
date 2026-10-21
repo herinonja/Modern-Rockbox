@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.VibrationEffect
@@ -12,6 +13,7 @@ import android.os.VibratorManager
 import android.view.View
 import android.webkit.*
 import androidx.activity.OnBackPressedCallback
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
@@ -24,6 +26,28 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var webView: WebView
     private var vibrator: Vibrator? = null
+    private var fileUploadCallback: ValueCallback<Array<Uri>>? = null
+
+    // Permet de choisir des dossiers ou fichiers audio sur la mémoire interne ou carte micro SD
+    private val fileChooserLauncher = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        if (result.resultCode == RESULT_OK) {
+            val intent = result.data
+            val uris = when {
+                intent?.clipData != null -> {
+                    val count = intent.clipData!!.itemCount
+                    Array(count) { i -> intent.clipData!!.getItemAt(i).uri }
+                }
+                intent?.data != null -> arrayOf(intent.data!!)
+                else -> null
+            }
+            fileUploadCallback?.onReceiveValue(uris)
+        } else {
+            fileUploadCallback?.onReceiveValue(null)
+        }
+        fileUploadCallback = null
+    }
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -118,6 +142,28 @@ class MainActivity : AppCompatActivity() {
         }
 
         webView.webChromeClient = object : WebChromeClient() {
+            override fun onShowFileChooser(
+                webView: WebView?,
+                filePathCallback: ValueCallback<Array<Uri>>?,
+                fileChooserParams: FileChooserParams?
+            ): Boolean {
+                fileUploadCallback?.onReceiveValue(null)
+                fileUploadCallback = filePathCallback
+                val intent = fileChooserParams?.createIntent() ?: Intent(Intent.ACTION_GET_CONTENT).apply {
+                    type = "audio/*"
+                    addCategory(Intent.CATEGORY_OPENABLE)
+                    putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
+                }
+                return try {
+                    fileChooserLauncher.launch(intent)
+                    true
+                } catch (_: Exception) {
+                    fileUploadCallback?.onReceiveValue(null)
+                    fileUploadCallback = null
+                    false
+                }
+            }
+
             override fun onConsoleMessage(consoleMessage: ConsoleMessage?): Boolean {
                 return true // Empêche les logs superflus
             }

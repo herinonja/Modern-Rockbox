@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-44:12
-INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-44:12
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:1-43:12
 MERGED from [com.google.android.material:material:1.11.0] /Users/frede_rica/.gradle/caches/transforms-4/9b103e6a57c010055ed11966c52d5628/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/frede_rica/.gradle/caches/transforms-4/66974e72112ff46ccd150c5cc8cc3dd3/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/frede_rica/.gradle/caches/transforms-4/cd6be248192eb296d651339721e567df/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
@@ -47,7 +47,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/frede_rica/.gradle
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/frede_rica/.gradle/caches/transforms-4/bd10fe47fbb7e4f5e9b457ff6a0056eb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/frede_rica/.gradle/caches/transforms-4/537d8a0ae1831509c994ad5e612be2dc/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:4:5-26
 		INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml
@@ -58,38 +57,38 @@ MERGED from [androidx.print:print:1.0.0] /Users/frede_rica/.gradle/caches/transf
 	xmlns:android
 		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:8:5-66
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:8:22-63
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:7:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:9:5-68
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:9:22-65
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:8:22-65
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:10:5-77
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:9:5-77
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:10:22-74
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:9:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:11:5-92
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:10:5-92
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:11:22-89
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:10:22-89
 uses-permission#android.permission.READ_MEDIA_AUDIO
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:12:5-75
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:12:22-72
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:11:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:13:5-107
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:12:5-107
 	android:maxSdkVersion
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:13:78-104
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:12:78-104
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:13:22-77
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:12:22-77
 application
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:15:5-43:19
-INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:15:5-43:19
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:14:5-42:19
+INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:14:5-42:19
 MERGED from [com.google.android.material:material:1.11.0] /Users/frede_rica/.gradle/caches/transforms-4/9b103e6a57c010055ed11966c52d5628/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] /Users/frede_rica/.gradle/caches/transforms-4/9b103e6a57c010055ed11966c52d5628/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/frede_rica/.gradle/caches/transforms-4/cd6be248192eb296d651339721e567df/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -111,51 +110,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/frede_rica/.gradle/c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/frede_rica/.gradle/caches/transforms-4/a9958a6fa40b3517565f2b7da0a3c182/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:22:9-35
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:20:9-32
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:19:9-32
 	android:hardwareAccelerated
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:16:9-43
 	android:roundIcon
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:21:9-48
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:20:9-54
 	android:largeHeap
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:18:9-33
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:17:9-33
 	android:icon
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:23:9-45
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:22:9-45
 activity#org.rockbox.MainActivity
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:26:9-36:20
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:25:9-35:20
 	android:screenOrientation
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:29:13-49
 	android:windowSoftInputMode
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:31:13-55
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:30:13-55
 	android:exported
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:28:13-36
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:27:13-36
 	android:configChanges
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:29:13-94
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:28:13-94
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:27:13-41
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:26:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:32:13-35:29
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:31:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:33:17-69
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:33:25-66
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:33:27-74
 service#org.rockbox.service.RockboxPlaybackService
-ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:39:9-42:61
+ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:38:9-41:61
 	android:exported
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:41:13-37
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:40:13-37
 	android:foregroundServiceType
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:42:13-58
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:41:13-58
 	android:name
-		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:40:13-59
+		ADDED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml:39:13-70
 uses-sdk
 INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/frede_rica/Downloads/Rockbox-iPod-Android-APK-Project/app/src/main/AndroidManifest.xml

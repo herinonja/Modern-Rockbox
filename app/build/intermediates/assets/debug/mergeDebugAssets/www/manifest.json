@@ -3,8 +3,8 @@
   "name": "Rockbox iPod Touch Edition",
   "short_name": "Rockbox",
   "description": "Portage Android moderne de Rockbox avec molette virtuelle haptique style iPod, thèmes personnalisables et exportateur APK.",
-  "theme_color": "#121214",
-  "background_color": "#121214",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": "/",
@@ -14,7 +14,17 @@
       "src": "/icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
-      "purpose": "any"
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
