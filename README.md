@@ -1,4 +1,4 @@
-# Edition moderne de Rockbox simulé dans un iPod
+# Edition moderne d'un Rockbox simulé dans un iPod
 
 Ce projet Android Studio contient l'application Rockbox iPod complète avec :
 - **Rendu visuel 100% IDENTIQUE** à la WebApp AI Studio (OLED Pure Dark, châssis iPod, molette ClickWheel, égaliseur 10 bandes flat, jeu Snake UX).
